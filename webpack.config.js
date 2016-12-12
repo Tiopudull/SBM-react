@@ -2,9 +2,9 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  entry: './preMain.js',
-  output: { path: __dirname, filename: 'main.js'},
-
+  entry: './src/app.js',
+  output: { path: __dirname, filename: 'bundle.js'},
+  },
   module: {
     loaders: [
       {
